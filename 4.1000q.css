@@ -1,0 +1,50 @@
+@media (max-width:1000px){
+    #right-nav{
+        display: flex;
+        display: none;
+        background-color: #221c74;
+        flex-direction: column;
+        position:absolute;
+        left: 0;
+        top: 0;
+        width: 50%;
+        
+    }
+
+    #t-d{
+        align-self: flex-start;
+        display: inline-block;
+    }
+    #t-d:hover , #t-d > span{
+        background-color: black;
+    }
+    #t-d:hover > span{
+        background-color: white;
+    }
+   
+    #t-d:hover ~ #right-nav{
+        display: flex;
+        background-color: #221c74;
+        flex-direction: column;
+        position:absolute;
+        left: 0;
+        top: 0;
+        width: 50%;
+    }
+    #checkbox{
+        display: inline;
+    }
+    #checkbox:checked ~  #right-nav{
+        display: flex;
+        background-color: #221c74;
+        flex-direction: column;
+        position:absolute;
+        left: 0;
+        top: 0;
+        width: 50%;
+    }
+    #main-pic-para{
+        display: none;
+    }
+
+}
