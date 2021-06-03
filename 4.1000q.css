@@ -47,5 +47,13 @@
     #main-pic-para{
         display: none;
     }
+    .news-div > p{
+        font-size: 17px;
+        padding: 2px;
+    }
+    #footer h3{
+        font-size: 12px;
+        padding: 0;
+    }
 
 }
